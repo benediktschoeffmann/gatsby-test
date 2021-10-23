@@ -1,3 +1,6 @@
+body {
+    font-family: "Roboto";
+}
 .container {
     margin: auto;
     max-width: 500px;
@@ -24,3 +27,7 @@
     font-weight: 700;
     margin: 3rem 0;
   }
+
+.head_container {
+    background-color: lightblue;
+}
