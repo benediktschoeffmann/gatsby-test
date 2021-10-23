@@ -27,7 +27,7 @@ const Nav = () => {
                 {
                     data.site.siteMetadata.navigation.nodes.map(node => (
                         <li className={CSS.navLinkItem}>
-                            <Link to="{node.slug}" className={CSS.navLinkText}>
+                            <Link to={node.slug} className={CSS.navLinkText}>
                                 {node.title}
                             </Link>
                         </li>
