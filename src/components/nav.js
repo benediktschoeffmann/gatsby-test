@@ -38,19 +38,4 @@ const Nav = () => {
     )
 }
 
-export const query = graphql`
-    query {     
-        site {
-            siteMetadata {
-                navigation {
-                    nodes {
-                        slug
-                        title
-                    }
-                }
-            }
-        }
-    }
-`
-
 export default Nav
