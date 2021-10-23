@@ -20,7 +20,6 @@ module.exports = {
       ]
     },
     links: {
-      
         "instagram" : {
           image: "instagram.png",
           url: "https://www.instagram.com/melaniesilbernagl.art/",
@@ -33,9 +32,6 @@ module.exports = {
           image: "mail.png",
           url: "melanie@test.at",
         },
-
-
-      
     }
   },
   plugins: [
