@@ -18,6 +18,24 @@ module.exports = {
           slug: "/about"
         }
       ]
+    },
+    links: {
+      
+        "instagram" : {
+          image: "instagram.png",
+          url: "https://www.instagram.com/melaniesilbernagl.art/",
+        },
+        "facebook" : {
+          image: "facebook.png",
+          url: "https://www.facebook.com/benedikt.schoffmann.5",
+        },
+        "email" : {  
+          image: "mail.png",
+          url: "melanie@test.at",
+        },
+
+
+      
     }
   },
   plugins: [
