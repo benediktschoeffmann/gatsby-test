@@ -37,6 +37,15 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-netlify-cms",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `Blogmd`,
+        path: `${__dirname}/blogmd`,
+      },
+    },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
